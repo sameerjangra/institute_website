@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{background-image: url("./bg-texture.png");}
+        .courses{
+            margin-top: 1rem;
+        }
+
+        .course__info h5{ 
+            margin-top: -15px;
+            padding-bottom: 15px;
+            font-size: 18px;
+            font-weight: 500;
+            top: 40%;
+        }
+    </style> 
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
+
+     <!--Google Font Link  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>CodeMaster Institute</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li> 
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-line"></i></button>
+        </div>
+    </nav>
+
+      <!-- courses -->
+
+      <section class="courses">
+        <div class="container courses__container">
+            
+            <article class="course">
+                <div class="courses__image">
+                    <img src="./images/course1.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Full-Stack Web Development</h4>
+                <p>Learn to build dynamic web applications from scratch, covering both frontend and backend development using HTML, CSS, JavaScript, and popular frameworks like React and Node.js.
+                </p>
+                <h5>Duration : 6 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1517148815978-75f6acaaf32c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1hY2hpbmUlMjBMZWFybmluZ3xlbnwwfDB8MHx8fDI%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>DS and Machine Learning</h4>
+                <p>Dive into the world of data analysis, statistics, and machine learning algorithms, and gain practical skills in data visualization, predictive modeling, and data-driven decision-making.
+                </p>
+                <h5>Duration: 9 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div>  
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1630442923896-244dd3717b35?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Mobile App Development</h4>
+                <p>Master the art of creating mobile applications for iOS and Android platforms using Swift, Kotlin, learning the entire app development lifecycle from design to deployment.
+                </p>
+                <h5>Duration: 6 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://plus.unsplash.com/premium_photo-1674669009418-2643aa58b11b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Cybersecurity Fundamentals</h4>
+                <p>Explore the fundamentals of cybersecurity, including threat detection, network security, cryptography, and ethical hacking techniques to protect against cyber threats.
+                </p>
+                <h5>Duration: 3 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://plus.unsplash.com/premium_photo-1681487942927-e1a2786e6036?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2xvdWQlMjBDb21wdXRpbmd8ZW58MHx8MHx8fDA%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Cloud Computing and DevOps</h4>
+                <p>Learn to deploy, manage, and scale cloud infrastructure using leading cloud platforms like AWS, Azure, and Google Cloud, and gain expertise in DevOps practices for continuous integration and deployment
+                </p>
+                <h5>Duration: 6 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="./images/course6.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>UI/UX Design</h4>
+                <p>Delve into the principles of user interface and user experience design, mastering tools like Adobe XD and Sketch to create intuitive and visually appealing digital interfaces.
+                </p>
+                <h5>Duration: 4 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+                </div>
+                <div class="course__info">
+                <h4>Digital Marketing and SEO</h4>
+                <p>Acquire skills in digital marketing strategies, including search engine optimization (SEO), social media marketing, email marketing, and content creation to drive online engagement and conversions.
+                </p>
+                <h5>Duration: 3 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1516245834210-c4c142787335?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEJsb2NrY2hhaW58ZW58MHx8MHx8fDA%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Blockchain Development</h4>
+                <p>Explore the concepts and applications of blockchain technology, learning to develop decentralized applications (DApps) and smart contracts using platforms like Ethereum and Hyperledger.
+                </p>
+                <h5>Duration: 1 Year</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://plus.unsplash.com/premium_photo-1664302004020-a69eec567967?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SW50ZXJuZXQlMjBvZiUyMFRoaW5nc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Internet of Things (IoT) Development</h4>
+                <p>Discover the interconnected world of IoT devices, sensors, and networks, and learn to build IoT solutions using Arduino, Raspberry Pi, and other IoT platforms.
+                </p>
+                <h5>Duration: 4 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1556438064-2d7646166914?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtZSUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Game Development</h4>
+                <p>Embark on a journey to create immersive gaming experiences, mastering game design principles, 2D/3D graphics, game engines like Unity and Unreal Engine, and game programming techniques.
+                </p>
+                <h5>Duration: 6 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q2xvdWQlMjBDb21wdXRpbmd8ZW58MHx8MHx8fDA%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Artificial Intelligence and Deep Learning</h4>
+                <p>Explore the fascinating field of AI and deep learning, studying neural networks, machine learning algorithms, natural language processing (NLP), and computer vision applications.
+                </p>
+                <h5>Duration: 9 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+            
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SmF2YSUyMFByb2dyYW1taW5nfGVufDB8fDB8fHww" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Java Programming</h4>
+                <p>Learn the fundamentals of Java programming language, including object-oriented programming principles, data manipulation, and application development for desktop and web environments.
+                </p>
+                <h5>Duration: 4 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="./images/course13.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Web Design and Development</h4>
+                <p>Develop proficiency in modern web design and development techniques, including responsive design, CSS frameworks, and JavaScript libraries, to create captivating and user-friendly websites.
+                </p>
+                <h5>Duration: 6 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Python Programming</h4>
+                <p>Dive into the versatile world of Python programming, mastering core concepts, data structures, and algorithms, and gaining hands-on experience in building Python applications.
+                </p>
+                <h5>Duration: 3 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+
+            <article class="course">
+                <div class="courses__image">
+                    <img src="./images/course16.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Frontend Dev. with React</h4>
+                <p>Deepen your understanding of frontend development with React, JavaScript library for building interactive user interfaces, and learn to develop single-page applications efficiently.
+                </p>
+                <h5>Duration: 3 months</h5>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+                </div> 
+            </article>
+
+            
+            
+        </div>
+    </section>
+
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__1">
+                    <a href="index.html" class="footer__logo"><h4>CodeMaster Institute</h4></a>
+                    <p>
+                        "Unleash Your Potential, Master the Digital World"
+                    </p>
+                </div>
+
+                <div class="footer__2">
+                    <h4>Permalinks</h4>
+                    <ul class="permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Condition</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p>+91 97295-87662</p>
+                        <p>codemasterhsr@gmail.com</p>
+                    </div>
+                    <div class="footer__socials">
+                        <li>
+                            <a href="https://www.facebook.com/sameerjangra1905"><i class="ri-facebook-line"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/sameer___jangra/"><i class="ri-instagram-line"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/sameer___jangra"><i class="ri-twitter-x-line"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sameer-jangra-34b4a128a/"><i class="ri-linkedin-line"></i></a>
+                        </li>
+                    </div>  
+                </div>
+                </div>
+
+
+            <div class="footer__copyright">
+                <small>Copyright &copy; CodeMaster</small>
+            </div>
+
+        </footer>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
